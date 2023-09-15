@@ -1,0 +1,14 @@
+.home{
+    width: auto;
+    height: auto;
+}
+
+#bg-vdo{
+    width: 100vw;
+    height: 100vh;
+    background: url('images/home_bg_vdo.mp4');
+    object-fit: cover;
+    position: fixed;
+    padding: 0;
+    z-index: -1;
+}
