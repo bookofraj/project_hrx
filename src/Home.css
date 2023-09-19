@@ -1,14 +1,18 @@
 .home{
-    width: auto;
-    height: auto;
-}
+    display: flex;
+    flex-direction: column;
 
-#bg-vdo{
-    width: 100vw;
-    height: 100vh;
-    background: url('images/home_bg_vdo.mp4');
+    /* width: 100%;
+    height: 100%;
+    background: url('images/hrx-hritik.jpg');
     object-fit: cover;
-    position: fixed;
-    padding: 0;
-    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.276);
+    background-blend-mode: darken;     */
+}
+.bg video{
+        width: 100%;
+        height: 100vh;
+        /* z-index: -1; */
+        position: fixed;
+        object-fit: cover;
 }

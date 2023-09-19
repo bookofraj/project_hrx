@@ -3,8 +3,12 @@
     height: auto;
     background-color: black;
     display: flex;
-    flex-direction: column;
-    border-radius: 0 5px 5px 0;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    top: 30vh;
 }
 .sidebar img{
     width: 50px;
