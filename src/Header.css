@@ -9,13 +9,14 @@
 
 }
 .header{
+    position: sticky;
     width: 100%;
     height: 50px;
     background-color: black;
     color: white;
     display: flex;
     cursor: pointer;
-    position: sticky;
+    z-index: 1;
 }
 
 .logo{
@@ -23,11 +24,13 @@
     height: 100%;
 }
 .logo img{
-    height: 100%;
+    width: 50px;
+    height: 50px;
     padding: 0 0 0 10px;
 }
 .logo img:hover{
-    height: 100%;
+    width: 50px;
+    height: 50px;
     padding: 0 0 0 15px;
     background-color: red;
 }
@@ -56,3 +59,15 @@
     text-decoration: none;
     color: red;
 }
+
+/* @media screen and (max-width: 480px){
+    .navlist{
+        flex-direction: column;
+    }
+    .navlist ul{
+        flex-direction: column;
+    }
+    .header{
+        height: 100vh;
+    }
+} */
