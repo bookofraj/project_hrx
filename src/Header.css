@@ -1,73 +1,89 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.header div{
-    display: flex;
-
+.header img{
+    width: 50px;
+    height: 50px;
 }
 .header{
-    position: sticky;
-    width: 100%;
-    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: black;
     color: white;
-    display: flex;
-    cursor: pointer;
+    width: 100%;
+    height: 50px;
     z-index: 1;
 }
-
 .logo{
-    width: 20%;
-    height: 100%;
+    transition: 0.5s;
 }
-.logo img{
-    width: 50px;
-    height: 50px;
+.logo:hover{
     padding: 0 0 0 10px;
-}
-.logo img:hover{
-    width: 50px;
-    height: 50px;
-    padding: 0 0 0 15px;
     background-color: red;
 }
-
-.navlist{
-    width: 80%;
-    height: 100%;    
-    justify-content: flex-end;
-    align-items: center;
+.header ul{
+    float: right;
+    margin-right: 25px;
 }
-.navlist ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+.header ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 6px;
 }
-.navlist ul li{
-    display: flex;
-    justify-content: space-between;    
-    padding: 0 15px;
-}
-.navlist ul a{
-    text-decoration: none;
+.header ul li a{
     color: white;
-}
-.navlist ul a:hover{
     text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.header ul li a:hover{
     color: red;
 }
+#check{
+    display: none;
+}
+.checkbtn{
+    color: white;
+    float: right;
+    font-size: 35px;
+    line-height: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: none;
+}
 
-/* @media screen and (max-width: 480px){
-    .navlist{
-        flex-direction: column;
+@media (max-width:560px){
+    .btn1{
+        display: block;
     }
-    .navlist ul{
-        flex-direction: column;
+    .header ul{
+        position: fixed;
+        background: grey;
+        width: 100%;
+        height: calc( 100vh - 50px);
+        top: 50px;
+        left: -100vw;
+        text-align: center;
+        transition: 0.5s;
     }
-    .header{
-        height: 100vh;
+    .header ul li{
+        display: block;
+        padding: 30px 60px;
+        line-height: 35px;
     }
-} */
+    .header ul li a{
+        font-size: 22px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #check:checked ~ .btn1{
+        display: none;
+    }
+    #check:checked ~ .btn2{
+        display: block;
+    }
+}
