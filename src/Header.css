@@ -2,6 +2,18 @@
     padding: 0;
     margin: 0;
 }
+.lgbtn{
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 5px;
+    padding: 3px 8px;
+    background-color: rgba(119, 136, 153, 0.545);
+}
+.lgbtn:hover{
+    border: red solid 2px;    
+}
+#hgadj{
+    line-height: 30px;
+}
 .header img{
     width: 50px;
     height: 50px;
