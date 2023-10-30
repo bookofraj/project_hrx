@@ -45,8 +45,14 @@
     color: white;
     background-color: rgba(63, 63, 63, 0.639);
 }
-@media (max-width: 1000px){
+@media (max-width: 560px){
         .container{
             font-size: 15px;
+            flex-direction: column;
+            height: 100vh;
+    }
+    .card{
+        width: 60%;
+        height: 180px;
     }
 }

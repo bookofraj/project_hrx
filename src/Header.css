@@ -77,7 +77,7 @@
         width: 100%;
         height: calc( 100vh - 50px);
         top: 50px;
-        left: -100vw;
+        left: -100%;
         text-align: center;
         transition: 0.5s;
     }

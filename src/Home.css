@@ -27,7 +27,7 @@
     background-color: black;
     display: flex;
     color: white;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .kabir h2{
@@ -61,6 +61,7 @@
     height: 100vh; 
     background: url('./images/hrx-hritik.jpg');
     background-size: cover;
+    background-position: center;
 }
 .bio{
     color: white;
@@ -74,4 +75,19 @@
     border-radius: 10px; 
     transition: 0.5s;
     cursor: pointer;
+}
+
+@media (max-width:560px){
+    .kabir{
+        flex-direction: column;
+    }
+    .kabir-vdo{
+        width: 80%;
+    }
+    .kabir-info p, .kabir-info h2{
+        padding: 0 10%;
+    }
+    .bio{
+        width: fit-content;
+    }
 }

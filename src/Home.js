@@ -10,14 +10,12 @@ export default function Home() {
       <Header />
       <Vdo />
       <section className='kabir'>
-      {/* <img src={ kabir } alt="ft. Hritik Roshan as Kabir in War" /> */}
       <div className='kabir-vdo'>
       <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-RuSqMYcQK0?si=SF-m_PjOE9J5IUCL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div className='kabir-info'>
       <h2>Kabir And Beyond...</h2>
       <p>Meet The Agent Kabir And Witness HRX Transformation</p>
-      {/* <p className='btn' onClick='transform()'>Watch Video</p> */}
       </div>
       </section>
       <section className='hritikbio'>

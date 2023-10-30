@@ -10,3 +10,15 @@
 .footer ul{
     list-style-type: none;
 }
+
+@media (max-width:560px){
+    .footer{
+        flex-direction: column;
+        gap: 30px 20px;
+        align-items: self-start;
+        padding-left: 40px;
+    }
+    .footer h3{
+        color: red;
+    }
+    }
