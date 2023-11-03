@@ -22,7 +22,7 @@ export default function Header() {
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/plans'>Membership</Link></li>
           <li><Link to='/about'>About Us</Link></li>
-          <li><Link to='/contact'>Contact Us</Link></li>
+          <li><Link to='/products'>Products</Link></li>
           <li id='hgadj' className='lgbtn'><Link to=''>Login</Link></li>
         </ul>
     </nav>
