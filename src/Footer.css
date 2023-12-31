@@ -7,6 +7,9 @@
     border-top: 5px solid grey;
     padding: 15px 0;
 }
+.footer h3{
+    color: red;
+}
 .footer ul{
     list-style-type: none;
 }
@@ -17,8 +20,5 @@
         gap: 30px 20px;
         align-items: self-start;
         padding-left: 40px;
-    }
-    .footer h3{
-        color: red;
     }
     }

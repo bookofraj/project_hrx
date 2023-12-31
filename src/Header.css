@@ -2,18 +2,18 @@
     padding: 0;
     margin: 0;
 }
-.lgbtn{
+/* .lgbtn{
     border: rgb(255, 255, 255) solid 2px;
     border-radius: 5px;
     padding: 3px 8px;
     background-color: rgba(119, 136, 153, 0.545);
-}
+} */
 .lgbtn:hover{
     border: red solid 2px;    
 }
-#hgadj{
+/* #hgadj{
     line-height: 30px;
-}
+} */
 .header img{
     width: 50px;
     height: 50px;
@@ -65,6 +65,31 @@
     cursor: pointer;
     margin-right: 10px;
     display: none;
+}
+
+.login{
+    width: auto;
+    height: auto;
+    background-color: yellow;
+
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+    display: flex;
+}
+.lgin-frm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.internal{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 @media (max-width:560px){

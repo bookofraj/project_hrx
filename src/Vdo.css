@@ -4,7 +4,7 @@
     height: 90vh;
     object-fit: cover;
 }
-.para
+/* .para
 {
     color: white;
     position: absolute;
@@ -21,7 +21,7 @@
 }
 .para p{
     color: red;
-}
+} */
 
 @media (max-width:560px){
     .Vdo h1{

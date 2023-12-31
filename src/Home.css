@@ -13,8 +13,10 @@
     background-color: rgba(119, 136, 153, 0.576);
 }
 .btn:hover{
+    background-color: rgba(255, 0, 0, 0.526);
     border: red solid 2px;
-    background-color: lightslategray;
+    color: white;
+    /* background-color: lightslategray; */
 }
 .bg video{
         width: 100%;
@@ -58,7 +60,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    height: fit-content; 
+    height: 100vh; 
     background: url('./images/hrx-hritik.jpg');
     background-size: cover;
     background-position: center;
@@ -89,5 +91,8 @@
     }
     .bio{
         width: fit-content;
+    }
+    .hritikbio{
+        height: fit-content;
     }
 }
