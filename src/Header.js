@@ -44,7 +44,7 @@ export default function Header() {
             onClick={handleUserButton}>Log In</label></li>
         </ul>
     </nav>
-   <div className="login">
+   {/* <div className="login">
         <form action="submit" className="lgin-frm">
           <div className="internal">
           <input type="email" placeholder='Email Address' />
@@ -53,7 +53,7 @@ export default function Header() {
           </div>
         </form>
         <img src={lginbanner} alt="login banner" />
-      </div>
+      </div> */}
     </>
   )
 }
